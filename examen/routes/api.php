@@ -9,7 +9,7 @@ use App\Http\Controllers\Api\prestramosController;
 
 
 Route::post('/guardar-autor', [autoresController::class, 'store']);
-Route::get('/todas-las-autore', [autoresController::class, 'index']);
+Route::get('/todas-los-autores', [autoresController::class, 'index']);
 Route::get('/autor/{autor}', [autoresController::class, 'show']);
 Route::delete('/autor/{autor}', [autoresController::class, 'destroy']);
 Route::put('/autor/{autor}', [autoresController::class, 'update']);
